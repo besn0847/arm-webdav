@@ -29,4 +29,4 @@ COPY root/ /
 
 EXPOSE 80 443
 
-
+ENTRYPOINT ["/startup.sh"]
