@@ -15,7 +15,7 @@ The default login is : "default / passw0rd"
 
 To change this, run :
 ```bash
-tdigest /config/apache/user.passwd DAV-upload default
+htdigest /config/apache/user.passwd DAV-upload default
 ```
 
 Tributes to https://github.com/Undergrid/docker-apache-webdav.
